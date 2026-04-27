@@ -44,4 +44,5 @@ after creating a src folder and setup.py write codes i them for the install the 
 
 go to vcs and write "pip install -r requirement.txt" --> this will install packges and ml.project.egg-info folder will be created.
 
+push all the new files and folders ceeated in a ml project to repository.
 
