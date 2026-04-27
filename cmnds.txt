@@ -1,0 +1,40 @@
+Create a repository in git hub give it a name
+
+open cmd and make a folder and give its perferred location --> cd D:\ml project
+
+write "code ." this will open your VCS 
+
+open terminal in vcs and write the following command to setup environment ---> " conda create -p venv python==3.8 -y "
+
+Open VCS terminal write "git init" --> this will create an empty repository contine with terminal:
+
+"git add README.md" --> README.md
+
+"git commit -m "first commit" --> commit will take place
+
+" git status "
+
+" git branch -M main "
+
+" git remote add origin https://github.com/Mayank2310/Basic-ML-Project.git" --> pushing  procedure the files
+
+" git remote -v" --> origin 
+
+set git global --> sync username and email
+
+" git config --global user.name [Your name]" for example [ git config --global user.name "Mayank saini"]
+
+" git config --global user.email [name@example.com] " for example [ git config --global user.email "mayankrajoriya2310@gmail.com"]
+
+Tip: To change username or email use double quotes "" write like this git config --global user.email "mayankrajoriya2310@gmail.com"
+
+in vcs terminal wire "git push -u origin main" --> this will push the code
+
+after pushing go to browser rerresh you github page to make sure you have successfully create your repository
+
+make a new file with name ".gitignore" and in choose gitmore template choose: python.
+
+in vcs terminal write git pull to have .gitignore fole in your vcs.
+
+
+
