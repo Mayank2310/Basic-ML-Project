@@ -1,3 +1,5 @@
+### FOLLOW THESE STEP BY STEP 
+
 Create a repository in git hub give it a name
 
 open cmd and make a folder and give its perferred location --> cd D:\ml project
@@ -36,5 +38,10 @@ make a new file with name ".gitignore" and in choose gitmore template choose: py
 
 in vcs terminal write git pull to have .gitignore fole in your vcs.
 
+In your Ml project make new file setup.py and requirement.txt
+
+after creating a src folder and setup.py write codes i them for the install the packeages.
+
+go to vcs and write "pip install -r requirement.txt" --> this will install packges and ml.project.egg-info folder will be created.
 
 
