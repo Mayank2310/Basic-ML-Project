@@ -46,3 +46,4 @@ go to vcs and write "pip install -r requirement.txt" --> this will install packg
 
 push all the new files and folders ceeated in a ml project to repository.
 
+when ypu make notebook folder and EDA STUDENT PERFORMANCE make sure you have installed "ipykernel"
