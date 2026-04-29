@@ -1,4 +1,6 @@
 import os
+os.environ['NUMEXPR_MAX_THREADS']='16'
+import os
 import sys
 from src.exception import CustomException
 from src.logger import logging
@@ -58,6 +60,7 @@ if __name__=="__main__":
 
     modeltrainer=ModelTrainer()
     print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
+
 
 
 
